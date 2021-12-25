@@ -4,17 +4,19 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
+///** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Louisville Data Commons',
+  tagline: 'LDC is an open data website to share data about Louisville, Kentucky.',
+  url: 'https://louisvilledatacommons.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'LouisvilleDataCommons', // Usually your GitHub org/user name.
+  projectName: 'LouisvilleDataCommons.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
+  trailingSlash: false,  
 
   presets: [
     [
@@ -23,15 +25,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -43,21 +38,28 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Louisville Data Commons Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            //update this
+            docId: 'index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Data',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://docs.google.com/forms/d/e/1FAIpQLSf1ZEo_Dp4YkoEq1YTJHfNtXBZWy1l2SLG4c3hf1E4yjPFbmw/viewform',
+            label: 'Sumbit Data',
+            position: 'left',
+            
+          },
+          {
+            href: 'https://github.com/LouisvilleDataCommons',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,8 +72,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Data',
+                to: '/docs/',
               },
             ],
           },
@@ -79,16 +81,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Meeting Minutes',
+                href: 'https://drive.google.com/drive/u/0/folders/189FUGs5BbYzMluCy6Ow2iEM-EssH2Lv_',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Envirome Institute',
+                href: 'https://enviromeinstitute.com/',
               },
             ],
           },
@@ -96,17 +94,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/LouisvilleDataCommons',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,
