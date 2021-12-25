@@ -4,32 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Document',
+    Svg: require('../../static/img/undraw_text_files_au1q.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Bacon ipsum dolor amet sirloin prosciutto pastrami, ribeye brisket filet mignon.
+        Swine short ribs spare ribs capicola leberkas andouille burgdoggen pancetta picanha.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Environment',
+    Svg: require('../../static/img/undraw_environment_iaus.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Filet mignon short loin anim strip steak est eu buffalo pork loin ball tip aute consequat pancetta.
+       Eiusmod pork chop non chuck pancetta, velit filet mignon aliquip nisi ut alcatra bacon cupim incididunt.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Community Data',
+    Svg: require('../../static/img/undraw_city_life_gnpr.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Pastrami non consequat beef.
+        Adipisicing sirloin drumstick chislic, occaecat esse meatball ham hock sausage consequat fatback jowl.
       </>
     ),
   },
