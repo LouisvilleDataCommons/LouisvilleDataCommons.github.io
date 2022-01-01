@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklouisville_data_commons=self.webpackChunklouisville_data_commons||[]).push([[743],{7574:function(e,l,n){n.r(l),n.d(l,{default:function(){return u}});var t=n(7294),a=n(7019);function u(){return t.createElement(a.Z,null,t.createElement("h1",null,"My React page"),t.createElement("p",null,"This is a React page"))}}}]);
