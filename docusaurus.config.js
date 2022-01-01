@@ -46,10 +46,10 @@ const config = {
         items: [
           {
             type: 'doc',
-            //update this
             docId: 'index',
             position: 'left',
             label: 'Data',
+
           },
           {to: '/about', label: 'About', position: 'left'},
           {
