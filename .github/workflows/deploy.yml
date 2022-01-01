@@ -3,8 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [./**]
-
 jobs:
   deploy:
     name: Deploy to GitHub Pages
@@ -16,7 +14,6 @@ jobs:
           node-version: 16.x
           cache: yarn
       - name: Build website
-        working-directory: ./
         run: |
           yarn install --frozen-lockfile
           yarn build
