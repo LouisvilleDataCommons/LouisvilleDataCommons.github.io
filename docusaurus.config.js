@@ -54,7 +54,7 @@ const config = {
           {to: '/about', label: 'About', position: 'left'},
           {
             href: 'https://docs.google.com/forms/d/e/1FAIpQLSf1ZEo_Dp4YkoEq1YTJHfNtXBZWy1l2SLG4c3hf1E4yjPFbmw/viewform',
-            label: 'Sumbit Data',
+            label: 'Submit Data',
             position: 'left',
             
           },
