@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_text_files_au1q.svg').default,
     description: (
       <>
-        Bacon ipsum dolor amet sirloin prosciutto pastrami, ribeye brisket filet mignon.
-        Swine short ribs spare ribs capicola leberkas andouille burgdoggen pancetta picanha.
+        Data sets are provided local individuals and organizations to provide a wide-ranging record of our city, in an effort to guide prospective and current residents.
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_environment_iaus.svg').default,
     description: (
       <>
-       Filet mignon short loin anim strip steak est eu buffalo pork loin ball tip aute consequat pancetta.
-       Eiusmod pork chop non chuck pancetta, velit filet mignon aliquip nisi ut alcatra bacon cupim incididunt.
+       High quality data about our environment helps to make best use of our shared community resources.
       </>
     ),
   },
