@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_text_files_au1q.svg').default,
     description: (
       <>
-        Data sets are provided local individuals and organizations to provide a wide-ranging record of our city, in an effort to guide prospective and current residents.
+        Data sets are provided by local individuals and organizations to provide a wide-ranging record of our city, to help serve as a guide to prospective and current residents.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_environment_iaus.svg').default,
     description: (
       <>
-       High quality data about our environment helps to make best use of our shared community resources.
+       High quality data about our environment helps to make the best use of our shared community resources.
       </>
     ),
   },
