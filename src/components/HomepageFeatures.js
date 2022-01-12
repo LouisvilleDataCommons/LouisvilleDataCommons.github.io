@@ -28,8 +28,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_city_life_gnpr.svg').default,
     description: (
       <>
-        Pastrami non consequat beef.
-        Adipisicing sirloin drumstick chislic, occaecat esse meatball ham hock sausage consequat fatback jowl.
+      Data available on the site is managed by a multistakeholder group of community volunteers who seek to build trust with the institutions that wish to use it.
       </>
     ),
   },
